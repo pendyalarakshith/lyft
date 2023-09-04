@@ -1,0 +1,19 @@
+To add unit tests to the codebase, follow these steps:
+
+Create a New Test Suite: Start by creating a new test suite to replace the old one in the "tests" folder. This new test suite will contain unit tests for the concrete implementations of the "Engine" and "Battery" classes.
+
+Use the Old Test Suite as a Template: Even though the old test suite is no longer applicable due to the refactoring in the previous step, it can serve as a useful template to guide you in writing the new unit tests. You can refer to the structure of the old test suite and adapt it to fit the new classes you implemented.
+
+Write Unit Tests for Concrete Implementations: Focus on writing unit tests for the concrete implementations of the "Engine" and "Battery" classes. Test the individual methods and behaviors of these classes in isolation, without relying on external dependencies.
+
+Test Behavior, Edge Cases, and Exceptions: Ensure that your unit tests cover various scenarios, including normal behavior, edge cases, and exception handling. Test different inputs and outputs to verify the correctness of the code.
+
+Refine the Codebase: While writing unit tests, you might encounter issues or uncover bugs in the code written during the previous step. Take this opportunity to refine and fix the codebase based on your testing observations. The goal is to ensure that the code is functional, maintainable, and behaves as expected.
+
+Run the Unit Tests: After writing the unit tests, run them to verify that they pass successfully and provide the expected results. Make sure all the unit tests are passing before proceeding.
+
+Commit and Push Changes: Once you are satisfied with the unit tests and the codebase, commit your changes and push them to your forked repository.
+
+Remember that unit tests are designed to test individual units in isolation, so you don't need to test every class and interaction in the codebase. Focus on testing the concrete implementations of the "Engine" and "Battery" classes, as instructed.
+
+After completing these steps, you can submit a link to your repository, which now contains both the refactored codebase and the new unit tests.
