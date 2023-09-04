@@ -1,0 +1,29 @@
+Great! Let's proceed with practicing test-driven development (TDD) to add the new functionality to the codebase. Here's a step-by-step guide:
+
+Write Tests for Spindler Battery Upgrade:
+
+Start by writing tests to check the expected behavior of the Spindler battery upgrade. Specifically, write a test that verifies the battery requires service after three years instead of two. Ensure that the test fails initially since the code hasn't been updated yet.
+Modify the Spindler Battery Implementation:
+
+Update the implementation of the Spindler battery class to reflect the new service requirement of three years. Ensure that the change is minimal, only touching one line of code as indicated.
+Run the Tests and Refactor (if needed):
+
+Run the test suite to check if the updated implementation passes the test. If the tests pass, you can proceed. If not, revise the code until the tests pass. This is an essential part of the TDD workflow.
+Write Tests for New Tire Servicing Criteria:
+
+Next, write tests for the new tire servicing criteria for Carrigan and Octoprime tires. Use sample arrays of tire wear values to check if the service criteria are applied correctly.
+Implement the Tire Servicing Criteria:
+
+Implement the tire servicing criteria based on the tests you wrote. Update the car factory class to handle the servicing requirements for Carrigan and Octoprime tires according to the specified conditions.
+Run the Tests and Refactor (if needed):
+
+Run the test suite again to check if the tire servicing criteria are functioning as expected. Refactor the code if needed to pass the tests.
+Test the Entire Codebase:
+
+After implementing the new functionality, run the complete test suite to ensure that all existing functionalities and the new changes work together without any regressions.
+Commit and Push Changes:
+
+Once you are satisfied with the new functionality and all the tests pass successfully, commit your changes and push them to your forked repository.
+By following this TDD workflow, you can incrementally add new functionality to the codebase while ensuring that it behaves as expected and without introducing regressions.
+
+Remember that the goal of TDD is to have a well-tested and maintainable codebase with a clear understanding of the expected behavior of each component.
